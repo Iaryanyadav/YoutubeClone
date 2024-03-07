@@ -1,0 +1,37 @@
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 71px;
+    width: 80px;
+    background-color: rgb(241, 228, 228);
+    border-right-color: rgb(174, 171, 171);
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.footer-photo {
+    height: 40px;
+    align-items: center;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+pre {
+    display: grid;
+    align-content: center;
+    font-size: 11px;
+    font-family: Roboto,Aerial;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+}
+.side-barlink {
+    flex: 1;
+    transition: background-color 0.2s;
+}
+.side-barlink:hover {
+    background-color: rgb(213, 200, 200);
+}
